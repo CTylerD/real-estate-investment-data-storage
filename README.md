@@ -21,4 +21,4 @@ Each successful data storage request will receive a response containing the subm
 To retrieve data, submit an HTTP GET request to the */retrieve/\<id>* endpoint, where \<id> contains the id value of the stored data calculation that you wish to receive. The data will then be pulled from the CSV and sent back to the client in an identical manner to the data storage response, with all of the calculated values stored under their corresponding keys plus the "id" value as well.
 
 ## UML sequence diagram
-![UML diagram](uml.png?raw=true)
+![UML diagram](./uml.png?raw=true)
